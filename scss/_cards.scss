@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: $secondary-bg-color;
+  color: $bg-color;
+
+  svg {
+    width: 70px;
+    height: 70px;
+    fill: $secondary-color;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}
